@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import photo from '../images/mainphoto.png'
+import photo from '../../images/mainphoto.png'
 
 function IndividualIntervalsExample() {
     return (

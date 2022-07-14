@@ -3,6 +3,9 @@ import NavigationBar from "./NavigationBar";
 import Header from './Header'
 import MainHeader from "./MainHeader";
 import SectionNews from "./SectionNews";
+import SectionDiscounts from "./SectionDiscounts";
+import PopularBrands from "./PopularBrands";
+import SectionBestsalers from "./SectionBestsalers";
 
 class MainPage extends Component {
     render() {
@@ -12,6 +15,9 @@ class MainPage extends Component {
                 <Header/>
                 <MainHeader/>
                 <SectionNews/>
+                <SectionDiscounts/>
+                <PopularBrands/>
+                <SectionBestsalers/>
             </div>
         );
     }

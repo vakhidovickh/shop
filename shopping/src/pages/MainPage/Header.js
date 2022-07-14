@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import '../styles/Header.css'
-import logo from '../images/logo.png'
+import '../../styles/Header.css'
+import logo from '../../images/logo.png'
 import {MdOutlineMenu} from 'react-icons/md'
 import {FaShoppingCart} from 'react-icons/fa'
 
