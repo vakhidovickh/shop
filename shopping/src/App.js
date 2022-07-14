@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
-import Nav from '../src/pages/Navbar'
+import MainPage from "./pages/MainPage";
 
 class App extends Component {
     render() {
         return (
             <div>
-                <Nav/>
+                <MainPage/>
             </div>
         );
     }
