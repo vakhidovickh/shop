@@ -1,0 +1,10 @@
+.Top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Top a{
+    color: rgba(255, 104, 117, 1);
+    text-decoration: none;
+
+}

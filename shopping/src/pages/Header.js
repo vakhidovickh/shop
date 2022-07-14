@@ -9,20 +9,20 @@ import {FaShoppingCart} from 'react-icons/fa'
         render() {
             return (
                 <div>
-                    <div className="header">
-                        <div className="container">
-                            <div className="header__top">
-                                <div className="header__brand">
+                    <div className="Header">
+                        <div className="Container">
+                            <div className="Header__top">
+                                <div className="Header__brand">
                                     <img src={logo} alt=""/>
                                 </div>
-                                <div className="header__catalog">
-                                    <MdOutlineMenu className="catlog"/>
+                                <div className="Header__catalog">
+                                    <MdOutlineMenu className="Catalog"/>
                                     <h3>Каталог</h3>
                                 </div>
-                                <div className="header__search">
+                                <div className="Ceader__search">
                                         <input type="text" id="search" placeholder="Что желаете найти?"/>
                                 </div>
-                                <div className="header__basket">
+                                <div className="Header__basket">
                                     <FaShoppingCart/>
                                     <h3>Корзина</h3>
                                 </div>
