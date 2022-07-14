@@ -24,6 +24,7 @@ class SectionDiscounts extends Component {
                                 <img src={photo} alt=""/>
                             </div>
                             <div className="Card__body">
+                                <span><h4>12%</h4></span>
                                 <h3>Cовместимость со вспышками — AD200/AD200Pro</h3>
                                 <p className="Real__price">67 763,23 сум</p>
                                 <h2>62 392,23 Сум</h2>
@@ -45,6 +46,7 @@ class SectionDiscounts extends Component {
                                 <img src={photo} alt=""/>
                             </div>
                             <div className="Card__body">
+                                <span><h4>12%</h4></span>
                                 <h3>Cовместимость со вспышками — AD200/AD200Pro</h3>
                                 <p className="Real__price">67 763,23 сум</p>
                                 <h2>62 392,23 Сум</h2>
@@ -66,6 +68,7 @@ class SectionDiscounts extends Component {
                                 <img src={photo} alt=""/>
                             </div>
                             <div className="Card__body">
+                                <span><h4>12%</h4></span>
                                 <h3>Cовместимость со вспышками — AD200/AD200Pro</h3>
                                 <p className="Real__price">67 763,23 сум</p>
                                 <h2>62 392,23 Сум</h2>
@@ -87,6 +90,7 @@ class SectionDiscounts extends Component {
                                 <img src={photo} alt=""/>
                             </div>
                             <div className="Card__body">
+                                <span><h4>12%</h4></span>
                                 <h3>Cовместимость со вспышками — AD200/AD200Pro</h3>
                                 <p className="Real__price">67 763,23 сум</p>
                                 <h2>62 392,23 Сум</h2>

@@ -1,0 +1,31 @@
+.Footer{
+    background: #3A3330;
+    height: 450px;
+    color: #FFFFFF;
+}
+
+.Footer__items{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    justify-content: space-between;
+}
+ul li{
+    display: block;
+}
+li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.5vh;
+}
+li a:hover{
+    text-decoration: none;
+    color: #cecece;
+    font-size: 1.5vh;
+}
+.Footer__information{
+    margin-top: 50px;
+    display: inline-block;
+    justify-content: end;
+    align-items: center;
+}
+
