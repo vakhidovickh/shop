@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import '../../styles/Header.css'
+import '../../styles/MainPage/Header.css'
 import logo from '../../images/logo.png'
 import {MdOutlineMenu} from 'react-icons/md'
 import {FaShoppingCart} from 'react-icons/fa'
@@ -13,7 +13,7 @@ import {FaShoppingCart} from 'react-icons/fa'
                         <div className="Container">
                             <div className="Header__top">
                                 <div className="Header__brand">
-                                    <img src={logo} alt=""/>
+                                    <a href="/"><img src={logo} alt=""/></a>
                                 </div>
                                 <div className="Header__catalog">
                                     <MdOutlineMenu className="Catalog"/>

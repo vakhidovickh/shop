@@ -1,0 +1,50 @@
+.About__rates{
+    background: #FFFFFF;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    width: 60%;
+    padding: 20px;
+    height: 30%;
+    display: flex;
+}
+.Number__rates{
+    font-family: 'Bookman Old Style' , sans-serif;
+    border-right: 1px solid rgba(0, 0, 0, 0.26);
+    padding-right: 10px;
+    width: 60%;
+}
+.Rates__description{
+    margin-left: 30px;
+    width: 35%;
+}
+.About__shop{
+    margin-bottom: 10%;
+    font-family: 'Jost' , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 50px;
+}
+.About__rates:hover{
+    background: #F8F8F8;
+}
+.Text__gold{
+    color: rgba(243, 149, 63, 1);
+}
+.Cards__about{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+.Card__about{
+    width: 375px;
+    height: 300px;
+    background: #FFFFFF;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.08);
+    border-radius: 60px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.Why__we{
+    margin-top: 10%;
+}

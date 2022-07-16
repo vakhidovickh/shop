@@ -3,7 +3,7 @@ import photo from "../../images/photo2.png";
 import shop from "../../images/add.png";
 import {FiArrowRight} from 'react-icons/fi'
 import photo2 from '../../images/photo.png'
-import '../../styles/SectionBestsalers.css'
+import '../../styles/MainPage/SectionBestsalers.css'
 
 class SectionBestsalers extends Component {
     render() {

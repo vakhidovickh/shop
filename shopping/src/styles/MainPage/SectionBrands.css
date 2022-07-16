@@ -1,0 +1,30 @@
+.Brands{
+    width: 1600px;
+    background: #cecece;
+    height: 150px;
+    border-radius: 30px;
+}
+.Brand img{
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 40%;
+    align-items: center;
+}
+.col{
+    border-right: 1px solid gray;
+    height: 100%;
+}
+.col:nth-child(5){
+    border-right:transparent;
+}
+.col:hover{
+    background: #FF3232;
+}
+.col:nth-child(1):hover{
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.col:nth-child(5):hover{
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+}

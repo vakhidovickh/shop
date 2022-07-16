@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import '../../styles/Navbar.css'
+import '../../styles/MainPage/Navbar.css'
 import { MdLocationOn } from 'react-icons/md'
 
 
@@ -11,7 +11,7 @@ class NavigationBar extends Component {
                     <div className="Container">
                         <div className="Nav">
                             <div className="Navigation">
-                                <a href="http://localhost:3000/"><h2>О нас </h2></a>
+                                <a href="http://localhost:3000/AboutUs"><h2>О нас </h2></a>
                                 <a href="http://localhost:3000/" className="Location">
                                     <MdLocationOn/>
                                     <h3>Ташкент</h3>

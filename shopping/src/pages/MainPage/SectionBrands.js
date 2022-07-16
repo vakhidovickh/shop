@@ -1,10 +1,6 @@
 import React, {Component} from 'react';
-import {FiArrowRight} from 'react-icons/fi'
-import '../../styles/SectionBrands.css'
+import '../../styles/MainPage/SectionBrands.css'
 import apple from '../../images/apple.png'
-import samsung from '../../images/samsung 1.png'
-import huawei from '../../images/Vector.png'
-import mi from '../../images/Group 15.png'
 
 class SectionBrands extends Component {
     render() {
@@ -15,39 +11,23 @@ class SectionBrands extends Component {
                         <div className="Top__text">
                             <h3>Популярные категории</h3>
                         </div>
-                        <a href="" className="See__all">
-                            <a href="#">Все категории</a>
-                            <FiArrowRight/>
-                        </a>
                     </div>
-                    <div className="Brands">
-                            <div className="Brand">
-                                <img src={apple} alt=""/>
-                                <span>
-
-                                </span>
-                            </div>
-                            <div className="Brand">
-                                <img src={samsung} alt=""/>
-                                <span>
-
-                                </span>
-                            </div>
-                            <div className="Brand">
-                                <img src={huawei} alt=""/>
-                                <span>
-
-                                </span>
-                            </div>
-                            <div className="Brand">
-                                <img src={apple} alt=""/>
-                                <span>
-
-                                </span>
-                            </div>
-                            <div className="Brand">
-                                <img src={mi} alt=""/>
-                            </div>
+                    <div className="Brands row">
+                        <div className="Brand col justify-content-end">
+                            <img src={apple} alt=""/>
+                        </div>
+                        <div className="Brand col justify-content-end">
+                            <img src={apple} alt=""/>
+                        </div>
+                        <div className="Brand col justify-content-end">
+                            <img src={apple} alt=""/>
+                        </div>
+                        <div className="Brand col justify-content-end">
+                            <img src={apple} alt=""/>
+                        </div>
+                        <div className="Brand col justify-content-end">
+                            <img src={apple} alt=""/>
+                        </div>
                     </div>
                 </div>
             </>

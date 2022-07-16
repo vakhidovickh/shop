@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import photo from "../../images/photo2.png";
 import shop from "../../images/add.png";
 import {FiArrowRight} from 'react-icons/fi'
-import '../../styles/SectionDiscounts.css'
+import '../../styles/MainPage/SectionDiscounts.css'
 
 class SectionDiscounts extends Component {
     render() {

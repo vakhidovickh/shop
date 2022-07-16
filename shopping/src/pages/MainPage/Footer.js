@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
-import '../../styles/Footer.css'
+import '../../styles/MainPage/Footer.css'
 import {BsFillTelephoneFill} from 'react-icons/bs'
 import {BsInstagram} from 'react-icons/bs'
 import {FiFacebook} from 'react-icons/fi'
 import {AiOutlineTwitter} from 'react-icons/ai'
-
+import logo from '../../images/logo.png'
 
 class Footer extends Component {
     render() {
@@ -14,7 +14,7 @@ class Footer extends Component {
                     <div className="Container">
                         <div className="Footer__items">
                             <div className="Footer__information">
-                                <h4>иинформация</h4>
+                                <h4>Иинформация</h4>
                                 <ul>
                                     <li><a href="#">О нас</a></li>
                                     <li><a href="#">Условия использования</a></li>
@@ -35,10 +35,12 @@ class Footer extends Component {
                                 </ul>
                             </div>
                             <div className="Footer__contact">
-                                <div className="Number">
-                                    <BsFillTelephoneFill/>
-                                    <h3>+99899 000 00 00</h3>
-                                    <button>ЗАКАЗАТЬ ЗВОНОК</button>
+                                <div className="Number mt-4 d-flex align-items-center">
+                                    <div className="Contact d-flex align-items-center">
+                                        <BsFillTelephoneFill/>
+                                        <h3>+99899 000 00 00</h3>
+                                    </div>
+                                    <button className="btn btn-danger">ЗАКАЗАТЬ ЗВОНОК</button>
                                 </div>
                                 <div className="d-flex">
                                     <div className="Adress">
@@ -53,6 +55,12 @@ class Footer extends Component {
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div className="Footer__copyright d-flex">
+                            <div className="Footer__logo">
+                                <img src={logo} alt=""/>
+                            </div>
+                            <p>© 2022 Lift Media. All Rights Reserved. </p>
                         </div>
                     </div>
                 </div>

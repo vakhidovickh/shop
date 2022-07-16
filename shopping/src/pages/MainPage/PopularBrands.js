@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import '../../styles/PopularBrands.css'
+import '../../styles/MainPage/PopularBrands.css'
 import photo from '../../images/photo3.png'
 import {FiArrowRight} from 'react-icons/fi'
 
