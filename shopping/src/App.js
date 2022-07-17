@@ -4,6 +4,9 @@ import MainPage from "./pages/MainPage/MainPage";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import MainAbout from "./pages/About Us/MainAbout";
 import SectionNews from "./pages/News Page/SectionNews";
+import Media from 'react-media';
+
+
 
 class App extends Component {
     render() {

@@ -2,13 +2,14 @@ import React, {Component} from 'react';
 import { FiArrowRight } from 'react-icons/fi'
 import '../../styles/MainPage/SectionNews.css'
 
+
 class SectionNews extends Component {
     componentDidMount() {
         for (let i = 0; i <4 ; i++) {
             document.querySelector('.Cards').innerHTML+=`
                                         <div class="Card">
                                 <div class="Card__header">
-                                    <img src="https://photobuy3.netlify.app/Camera1.png" alt=""/>
+                                    <img src="https://photobuy3.netlify.app/Camera1.png" class="img1" alt=""/>
                                 </div>
                                 <div class="Card__body">
                                     <h3>Cовместимость со вспышками — AD200/AD200Pro</h3>

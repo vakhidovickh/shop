@@ -38,10 +38,10 @@ class Footer extends Component {
                                 <div className="Number mt-4 d-flex align-items-center">
                                     <div className="Contact d-flex align-items-center">
                                         <BsFillTelephoneFill/>
-                                        <h3>+99899 000 00 00</h3>
+                                        <h3>+998990000000</h3>
                                     </div>
-                                    <button className="btn btn-danger">ЗАКАЗАТЬ ЗВОНОК</button>
                                 </div>
+                                <button className="btn btn-danger Button"><h3>ЗАКАЗАТЬ ЗВОНОК</h3></button>
                                 <div className="d-flex">
                                     <div className="Adress">
                                         <p>Yunusobod tumani -22 kvartal</p>

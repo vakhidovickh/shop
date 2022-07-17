@@ -13,19 +13,19 @@ class SectionBrands extends Component {
                         </div>
                     </div>
                     <div className="Brands row">
-                        <div className="Brand col justify-content-end">
+                        <div className="Brand Col justify-content-end">
                             <img src={apple} alt=""/>
                         </div>
-                        <div className="Brand col justify-content-end">
+                        <div className="Brand Col justify-content-end">
                             <img src={apple} alt=""/>
                         </div>
-                        <div className="Brand col justify-content-end">
+                        <div className="Brand Col justify-content-end">
                             <img src={apple} alt=""/>
                         </div>
-                        <div className="Brand col justify-content-end">
+                        <div className="Brand Col justify-content-end">
                             <img src={apple} alt=""/>
                         </div>
-                        <div className="Brand col justify-content-end">
+                        <div className="Brand Col justify-content-end">
                             <img src={apple} alt=""/>
                         </div>
                     </div>

@@ -7,7 +7,7 @@
 
 .Footer__items{
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 30% 30% 30%;
     justify-content: space-between;
 }
 ul li{
@@ -50,11 +50,28 @@ li a:hover{
     margin-top: 10%;
     background: #26211E;
     border-radius: 40px;
-    width: 620px;
+    width: 140% ;
     height: 235px;
     justify-content: center;
     padding-left: 40px;
     margin-left: -50px;
+}
+.Contact h3{
+    margin-top: 3%;
+    font-size: 3vh;
+    font-family: 'Jost' , sans-serif;
+    font-style: normal;
+}
+.Contact{
+    font-size: 3vh;
+    gap: 5%;
+}
+.Button{
+    align-items: center;
+
+}
+.Button h3{
+    font-size: 1.5vh;
 }
 #footer{
     border: none;
@@ -66,17 +83,19 @@ li a:hover{
     color: white;
 }
 .icons{
-    font-size: 25px;
+    font-size: 3.5vh;
     gap: 10%;
     border-radius: 50%;
 }
-.btn{
-    margin-left: 100px;
-}
+
 .Footer__copyright{
     align-items: center;
     display: flex;
     margin-top: 5%;
     border-top: 1px solid #ffffff;
     gap: 35%;
+}
+.Adress h4{
+    font-size: 2vh;
+    margin-bottom: 7%;
 }
