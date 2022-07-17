@@ -15,7 +15,7 @@ class SectionBestsalers extends Component {
                             <h3 className="d-flex">Скидки <span>%</span></h3>
                         </div>
                         <a href="" className="See__all">
-                            <a href="#">Все категории</a>
+                            <a href="http://localhost:3000/tops">Все категории</a>
                             <FiArrowRight/>
                         </a>
                     </div>

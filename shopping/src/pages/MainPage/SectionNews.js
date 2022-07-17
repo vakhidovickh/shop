@@ -38,7 +38,7 @@ class SectionNews extends Component {
                 <div className="Container">
                     <div className="Top">
                         <h3>Новинки </h3>
-                        <a href="http://localhost:3000/News" className="See__all">
+                        <a href="http://localhost:3000/news" className="See__all">
                             <a href="http://localhost:3000/News">Все категории</a>
                             <FiArrowRight/>
                         </a>

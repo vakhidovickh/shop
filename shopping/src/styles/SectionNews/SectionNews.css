@@ -1,3 +1,20 @@
 .btn{
     margin-left: 48%;
 }
+.Back{
+    font-size: 3vh;
+    margin-bottom: 5%;
+    text-decoration: none;
+    color: #1D1D1D;
+}
+.Back:hover{
+    text-decoration: none;
+    color: #1D1D1D;
+}
+
+.Arrow__left{
+    border: 1px solid rgba(0, 0, 0, 0.38);
+    width: 5%;
+    text-align: center;
+    border-radius: 15%;
+}

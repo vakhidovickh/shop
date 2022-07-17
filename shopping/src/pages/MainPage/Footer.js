@@ -35,13 +35,13 @@ class Footer extends Component {
                                 </ul>
                             </div>
                             <div className="Footer__contact">
-                                <div className="Number mt-4 d-flex align-items-center">
-                                    <div className="Contact d-flex align-items-center">
+                                <div className="Number mt-4">
+                                    <div className="Contact d-flex gap-2 align-items-center">
                                         <BsFillTelephoneFill/>
                                         <h3>+998990000000</h3>
                                     </div>
+                                    <div><button className="btn btn-danger Button">ЗАКАЗАТЬ ЗВОНОК</button></div>
                                 </div>
-                                <button className="btn btn-danger Button"><h3>ЗАКАЗАТЬ ЗВОНОК</h3></button>
                                 <div className="d-flex">
                                     <div className="Adress">
                                         <p>Yunusobod tumani -22 kvartal</p>

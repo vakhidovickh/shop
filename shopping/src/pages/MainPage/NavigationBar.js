@@ -11,7 +11,7 @@ class NavigationBar extends Component {
                     <div className="Container">
                         <div className="Nav">
                             <div className="Navigation">
-                                <a href="http://localhost:3000/AboutUs"><h2>О нас </h2></a>
+                                <a href="http://localhost:3000/about-us"><h2>О нас </h2></a>
                                 <a href="http://localhost:3000/" className="Location">
                                     <MdLocationOn/>
                                     <h3>Ташкент</h3>

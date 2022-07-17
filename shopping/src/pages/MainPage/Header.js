@@ -22,10 +22,10 @@ import {FaShoppingCart} from 'react-icons/fa'
                                 <div className="Ceader__search">
                                         <input type="text" id="search" placeholder="Что желаете найти?"/>
                                 </div>
-                                <div className="Header__basket">
+                                <a href="http://localhost:3000/basket" className="Header__basket">
                                     <FaShoppingCart/>
                                     <h3>Корзина</h3>
-                                </div>
+                                </a>
                             </div>
                         </div>
                     </div>

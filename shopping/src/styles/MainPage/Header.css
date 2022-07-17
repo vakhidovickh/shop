@@ -32,4 +32,10 @@
     align-items: center;
     justify-content: end;
     gap: 10px;
+    color: #1D1D1D;
+    text-decoration: none;
+}
+.Header__basket:hover{
+    color: #1D1D1D;
+    text-decoration: none;
 }
