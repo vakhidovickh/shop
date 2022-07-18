@@ -18,3 +18,7 @@
     text-align: center;
     border-radius: 15%;
 }
+.Btn-add{
+    border: none;
+    background: transparent;
+}
