@@ -9,14 +9,14 @@ import { FiArrowLeft } from 'react-icons/fi'
 
 class SectionNews extends Component {
 state={
-    data:[],
+    data:localStorage.getItem('bir').split(","),
     ab:["abbas1","abbas2","abbas3","abbas4"]
 };
 getShop=(item)=>{
     // this.state.data=localStorage.getItem('bir')
 this.state.data.push(item);
     localStorage.setItem('bir',this.state.data);
-    console.log(localStorage.getItem('bir'))
+    console.log([localStorage.getItem('bir')]);
 };
     my = () => {
         document.querySelector('.Cards').innerHTML = ` `;
@@ -66,8 +66,8 @@ this.state.data.push(item);
                         <h3>Новинки</h3>
                     </a>
                     <div className="Cards">
-                        {this.state.ab.map(item=>{
-                            return <div className="Card mb-3">
+                        {this.state.ab.map((item,key)=>{
+                            return <div key={key} className="Card mb-3">
                                 <div className="Card__header">
                                     <img src="https://photobuy3.netlify.app/Camera1.png" alt=""/>
                                 </div>
