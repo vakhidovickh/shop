@@ -8,18 +8,19 @@ import { FiArrowLeft } from "react-icons/fi";
 import '../../styles/Basket/Basket.css'
 
 
-class Basket extends Component {
-
-
-        add=()=>{
-
-        };
-
+export default class Basket extends Component {
     state={
-      shop: localStorage.getItem('bir')
+        shop: localStorage.getItem('bir').split(","),
+        data1:[]
+    };
+    addData=()=>{
+        this.setState({data1:this.state.shop[0]});
+ console.log(this.state.data1)
     };
 
-
+componentDidMount() {
+   this.addData()
+}
 
     render() {
         return (
@@ -28,7 +29,7 @@ class Basket extends Component {
                 <Header/>
                 {this.state.shop===null?(
                     <div className="Container">
-                        <a href="http://localhost:3000/" className="Back d-flex align-items-center gap-3">
+                        <a href="/" target="_self" className="Back d-flex align-items-center gap-3">
                         <span className="Arrow__left align-items-center">
                             <FiArrowLeft/>
                         </span>
@@ -42,8 +43,8 @@ class Basket extends Component {
                             <p className="fs-3 text-gray">Начните выбирать товары из широкого ассортимента нашего каталога.</p>
                         </div>
                     </div>):(
-                    this.state.shop.map(item=> {
-return <h1>{item}</h1>
+                    this.state.shop.map((item,key)=> {
+return <div key={key}><h1>{item}</h1><br/></div>
                     })
                 )
 
@@ -56,4 +57,4 @@ return <h1>{item}</h1>
     }
 }
 
-export default Basket;
+
