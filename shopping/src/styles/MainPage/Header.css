@@ -39,3 +39,11 @@
     color: #1D1D1D;
     text-decoration: none;
 }
+@media screen and (max-width: 1500px) and (min-width: 1200px) {
+    .Header__catalog h3{
+        font-size: 3.5vh;
+    }
+    .Header__basket h3{
+        font-size: 3.5vh;
+    }
+}
