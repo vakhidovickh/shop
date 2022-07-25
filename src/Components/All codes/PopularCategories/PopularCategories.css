@@ -1,0 +1,101 @@
+
+.PopularItems{
+    padding: 3% 0;
+}
+.Container2{
+    width: 80%;
+    margin: auto;
+}
+.PopularItems h2{
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2vw;
+}
+.PopularProducts {
+    display: grid;
+    grid-template-columns: 18% 18% 18% 18% 18%;
+    justify-content: space-between;
+}
+.PopularProduct:hover{
+    background-color: #ececec;
+}
+
+.PopularProduct {
+    text-align: center;
+    padding: 10% 0;
+    margin: 8% 0 5% 0;
+    border-radius: 30px;
+    box-shadow: 0 0 7px 0 rgba(34, 60, 80, 0.2) inset;
+}
+.PopularProduct h6{
+    padding-top: 15%;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+    color: #000000;
+}
+@media screen and (min-width: 768px) and (max-width: 1200px){
+    .PopularProduct img{
+        width: 10vw;
+    }
+}
+
+@media screen and (min-width: 620px) and (max-width: 767px) {
+    .PopularProduct img{
+        width: 8vw;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 619px) {
+    .PopularItems h2{
+        font-size: 4vw;
+    }
+    .Container2{
+        width: 100%;
+        margin-left: 10%;
+    }
+    .PopularProducts {
+        display: grid;
+        grid-template-columns: 200px 200px 200px 200px 200px;
+        justify-content: space-between;
+        overflow-x: scroll;
+        padding-right: 18%;
+    }
+    .PopularProduct img{
+        width: 30vw;
+    }
+    .PopularProduct{
+        margin-left: 10%;
+    }
+    .PopularProduct h6 {
+       font-size: 3vw;
+    }
+}
+@media screen and (max-width: 619px) {
+    .PopularItems h2{
+        font-size: 4vw;
+    }
+    .Container2{
+        width: 100%;
+        margin-left: 5%;
+    }
+    .PopularProducts {
+        display: grid;
+        grid-template-columns: 200px 200px 200px 200px 200px;
+        justify-content: space-between;
+        overflow-x: scroll;
+        padding-right: 10%;
+    }
+    .PopularProduct img{
+        width: 30vw;
+    }
+    .PopularProduct{
+        margin-left: 10%;
+    }
+    .PopularProduct h6 {
+        font-size: 3vw;
+    }
+}

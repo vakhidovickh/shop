@@ -1,0 +1,84 @@
+.Item{
+    padding: 3% 0;
+}
+.TitleItem{
+    width: 13%;
+    justify-content: space-between;
+    display: flex;
+}
+.TitleItem a{
+    font-size: 2vw;
+    color: #FF3232;
+}
+.TitleItem h2{
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2vw;
+    color: #000000;
+}
+.ContentItem{
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 0;
+}
+.ImagesItem {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.BigImgItem{
+    width: 30vw;
+}
+.SmallImgItem img{
+    display: block;
+}
+.SmallImgItem img:nth-child(2){
+    margin-top: 2%;
+}
+.InfoItem {
+    width: 28%;
+}
+.InfoItem h3, h4, h6, p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+.InfoItem h3{
+    font-weight: 700;
+    font-size: 1.5vw;
+}
+.TextItem h6{
+    font-size: 1vw;
+    font-weight: 600;
+}
+.TextItem h6 span{
+    color: #b5b5b5;
+    font-weight: 400;
+}
+.TextItem p {
+    font-size: 0.8vw;
+    line-height: 2;
+    color: #b5b5b5;
+}
+.PriceItem {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+.PriceItem h4{
+    font-weight: 700;
+    font-size: 1.8vw;
+}
+.ButtonItemAdd{
+    margin-top: 10%;
+    width: 100%;
+    background-color: #359740;
+    color: #fff;
+    text-align: center;
+    padding: 5% 3%;
+    border-radius: 32px;
+}
+.ButtonItemAdd:hover{
+    background-color: #25692e;
+}

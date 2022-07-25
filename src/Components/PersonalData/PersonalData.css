@@ -1,0 +1,211 @@
+.MainSectionPersonalData {
+    padding: 2% 0;
+}
+
+.TitlePD {
+    width: 33%;
+    justify-content: space-between;
+    display: flex;
+}
+
+.TitlePD a {
+    font-size: 2vw;
+    color: #FF3232;
+}
+
+.TitlePD h2 {
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2vw;
+    color: #000000;
+}
+
+.FormsPD {
+    padding-top: 2%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+}
+
+.Form {
+    width: 57%;
+    padding: 5% 3%;
+    border: 1px solid #EFEFEF;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+}
+
+.InputForm {
+    padding-top: 3%;
+}
+
+.InputForm p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5vw;
+    color: #011043;
+}
+
+.InputForm input {
+    background: rgba(196, 196, 196, 0.2);
+    border: 1px solid #EFEFEF;
+    border-radius: 6px;
+    width: 100%;
+    padding: 2%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw;
+    color: #373737;
+}
+
+.ButtonSend {
+    margin-top: 6%;
+    border-radius: 8px;
+    background-color: #359740;
+    text-align: center;
+    padding: 3% 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5vw;
+    color: #fff;
+}
+
+.ButtonSend:hover {
+    background-color: #25692e;
+    cursor: pointer;
+}
+
+.PricePD {
+    width: 39%;
+    padding: 2%;
+    border: 1px solid #EFEFEF;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+    height: 100%;
+}
+
+.PricePD h4 {
+    font-family: 'Lexend', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2vw;
+    color: #1F2533;
+}
+
+.SomeTextPD h6 {
+    padding-top: 7%;
+    color: #000000;
+}
+
+.SomeTextPD h6 span a {
+    color: rgba(255, 104, 117, 1);
+}
+.SomeTextPD h6 span a:hover {
+    color: rgb(172, 76, 86);
+}
+
+.SomeTextPD p {
+    padding-top: 3%;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.SomeTextPD h6, .SomeTextPD p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.8vw
+}
+
+@media screen and (min-width: 620px) and (max-width: 1024px) {
+    .SomeTextPD p, .SomeTextPD h6 {
+        font-size: 1.1vw;
+    }
+    .ItemsPrices p {
+        font-size: 1.5vw;
+    }
+
+    .PricePD h4 {
+        font-size: 1.8vw;
+    }
+
+    .InputForm p {
+        font-size: 2vw;
+    }
+    .InputForm input {
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 619px) {
+    .TitlePD{
+        width: 60%;
+        align-items: baseline;
+    }
+    .TitlePD h2 {
+        font-size: 4vw;
+    }
+    .TitlePD a{
+        font-size: 5vw;
+    }
+    .FormsPD {
+        display: block;
+    }
+    .Form, .PricePD {
+        width: 100%;
+    }
+    .PricePD {
+        margin-top: 5%;
+    }
+    .SomeTextPD p, .SomeTextPD h6, .InputForm input {
+        font-size: 3vw;
+    }
+    .PricePD h4, .ButtonSend, .ItemsPrices p {
+        font-size: 5vw;
+    }
+    .InputForm p {
+        font-size: 4vw;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .TitlePD{
+        padding-top: 5%;
+        width: 75%;
+        align-items: baseline;
+    }
+    .TitlePD h2 {
+        font-size: 5vw;
+    }
+    .TitlePD a{
+        font-size: 6vw;
+    }
+    .FormsPD {
+        display: block;
+    }
+    .ButtonSend{
+        margin-top: 15%;
+    }
+    .InputForm{
+        padding-top: 8%;
+    }
+    .Form, .PricePD {
+        width: 100%;
+        padding: 5%;
+    }
+    .PricePD {
+        margin-top: 5%;
+    }
+    .PricePD h4, .ButtonSend, .InputForm p {
+        font-size: 4.7vw;
+    }
+    .ItemsPrices p, .InputForm input, .SomeTextPD p, .SomeTextPD h6  {
+        font-size: 3.7vw;
+    }
+    .SomeTextPD p{
+        line-height: 17px;
+    }
+}

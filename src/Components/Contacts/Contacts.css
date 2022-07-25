@@ -1,0 +1,55 @@
+.Contacts {
+    padding-top: 3%;
+}
+
+.ContactsContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.Contacts h2 {
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2vw;
+    color: #000000;
+}
+
+.ContactsHeroLeft {
+    width: 70%;
+    padding-top: 5%;
+}
+
+.LinksContacts {
+    display: flex;
+}
+
+.LinksContacts ul:nth-child(1) li {
+    padding: 2% 0;
+}
+.LinksContacts ul:nth-child(2) li {
+    line-height: 30px;
+}
+.LinksContacts a {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+    color: #000000;
+}
+
+.ContactsHeroLeft a:hover {
+    color: gray;
+}
+
+.IconsContacts{
+    padding-top: 10%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.IconsContacts a{
+    color: #000;
+    font-size: 2vw;
+}

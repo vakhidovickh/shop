@@ -1,0 +1,338 @@
+.MainSectionCart {
+    padding: 5% 0;
+}
+
+.TitleCart {
+    width: 60%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.leftHero {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+}
+
+.leftHero a {
+    font-size: 1.5vw;
+    color: #FF3232;
+}
+
+.leftHero h2 {
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2vw;
+}
+
+.rightHero p {
+    font-family: 'Lexend', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2vw;
+    color: #70737C;;
+}
+
+.CartContent {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3%;
+}
+
+.CartContentLeft {
+    width: 70%;
+}
+
+
+.TitleContentLeft {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 0.3fr 0.3fr 0.3fr;
+    align-items: center;
+    text-align: end;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.TitleContentLeft h2 {
+    text-align: left;
+}
+
+.TitleContentLeft h2, .TitleContentLeft p {
+    font-family: 'Lexend', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+    padding-bottom: 3%;
+    color: #70737C;
+}
+
+.ContentItemCart {
+    display: grid;
+    grid-template-columns: 1fr 0.9fr;
+    width: 100%;
+    padding: 2% 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.TitleProduct {
+    display: flex;
+    align-items: center;
+}
+
+.NumberAndPrice {
+    justify-content: end;
+    width: 100%;
+    text-align: end;
+    display: grid;
+    grid-template-columns: 0.4fr 0.3fr 0.3fr;
+}
+
+.NumberOfItem {
+    width: 90%;
+    height: 50%;
+    padding: 3%;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 11px;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    display: flex;
+}
+
+.NumberAndPrice h5, .TitleProduct h3 {
+    font-family: 'Lexend', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    padding: 3% 0;
+    font-weight: 600;
+}
+
+.NumberAndPrice h5:nth-child(3) {
+    color: rgba(237, 52, 52, 0.86);
+}
+
+.TitleProduct span img {
+    width: 7vw;
+}
+
+.NumberOfItem button, .NumberOfItem p {
+    color: #359740;
+    display: flex;
+    margin: 0;
+    background-color: #fff;
+}
+
+.CartContentRight {
+    width: 28%;
+    padding: 2%;
+    border-radius: 12px;
+    border: 1px solid #EFEFEF;
+    box-shadow: 0 4px 12px rgba(207, 207, 207, 0.25);
+}
+
+.CartContentRight h4 {
+    font-family: 'Lexend', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2vw;
+    color: #1F2533;
+
+}
+
+.NumberAndPrice2, .NameProduct {
+    display: none;
+}
+
+.TotalPrices {
+    padding-top: 2%;
+}
+
+.TotalPrices {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw;
+    color: #70737C;
+}
+
+.TotalPrice p:nth-child(2) {
+    color: rgba(255, 50, 50, 0.85);
+}
+
+.ItemsPrices {
+    padding: 3% 0;
+}
+
+.ItemsPrices p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1vw;
+    color: #4E4E4E;
+}
+
+.NumberItems, .TotalPrice, .DiscountItem, .TotalPrices {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonCart {
+    border-radius: 8px;
+    background-color: #359740;
+    text-align: center;
+    padding: 5% 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1vw;
+    color: #fff;
+}
+
+.buttonCart:hover {
+    background-color: #25692e;
+}
+
+@media screen and (min-width: 620px) and (max-width: 991px) {
+    .leftHero h2, .leftHero a {
+        font-size: 2.5vw;
+    }
+
+    .NumberOfItem {
+        width: 80%;
+        height: 70%;
+    }
+
+    .TitleContentLeft h2, .TitleContentLeft p, .NumberAndPrice h5, .TitleProduct h3 {
+        font-size: 1.8vw;
+    }
+
+    .CartContentRight h4 {
+        font-size: 2.5vw;
+    }
+
+    .TotalPrices p {
+        font-size: 1.3vw;
+    }
+}
+
+@media screen and (min-width: 470px) and (max-width: 619px) {
+    .CartContent {
+        display: block;
+    }
+
+    .CartContentLeft {
+        width: 100%;
+    }
+
+    .CartContentRight {
+        width: 70%;
+        margin: 10% auto 0 auto;
+    }
+
+    .leftHero h2, .leftHero a, .CartContentRight h4 {
+        font-size: 4vw;
+    }
+
+    .TitleContentLeft h2, .TitleContentLeft p, .TitleProduct h3 {
+        font-size: 3vw;
+    }
+
+    .TotalPrices p, .rightHero p, .NumberAndPrice h5 {
+        font-size: 2.5vw;
+    }
+
+    .buttonCart {
+        font-size: 3vw;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .NumberOfItem {
+        width: 60%;
+        height: 100%;
+    }
+
+    .CartContent {
+        display: block;
+    }
+
+    .CartContentLeft {
+        width: 100%;
+    }
+
+    .CartContentRight {
+        width: 90%;
+        margin: 10% auto 0 auto;
+        padding: 5%;
+    }
+
+    .ContentItemCart {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.6fr 0.4fr;
+        padding-bottom: 5%;
+    }
+
+    .TitleContentLeft {
+        display: none;
+    }
+    .TitleProduct{
+        justify-content: space-between;
+    }
+    .NameProduct {
+        display: block;
+    }
+
+    .NumberAndPrice2 {
+        display: grid;
+        grid-template-columns: 0.4fr 0.3fr 0.3fr;
+        width: 100%;
+        text-align: end;
+
+    }
+
+    .NumberAndPrice2 p:nth-child(1) {
+        text-align: center;
+    }
+
+    .leftHero h2, .leftHero a, .CartContentRight h4 {
+        font-size: 5vw;
+    }
+
+    .TitleContentLeft h2, .TitleContentLeft p, .TitleProduct h3 {
+        font-size: 5vw;
+    }
+
+    .NameProduct h2, .NumberAndPrice2 p {
+        font-family: 'Lexend', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        padding: 3% 0;
+        color: #70737C;
+    }
+
+    .NumberAndPrice2 {
+        padding-top: 3%;
+    }
+
+    .NumberAndPrice span {
+        margin: auto;
+    }
+
+    .TitleProduct {
+        padding: 3%;
+    }
+
+    .TotalPrices p, .rightHero p, .NumberAndPrice h5, .NumberAndPrice2 p, .NameProduct h2 {
+        font-size: 4vw;
+    }
+     .NumberOfItem button, .NumberOfItem p{
+         font-size: 4vw;
+     }
+    .buttonCart {
+        font-size: 4vw;
+    }
+
+    .TitleProduct span img {
+        width: 25vw;
+    }
+}

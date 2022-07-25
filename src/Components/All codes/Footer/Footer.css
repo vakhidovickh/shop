@@ -1,0 +1,270 @@
+.Footer {
+    width: 100%;
+    background-color: rgba(58, 51, 48, 1);
+    padding: 3% 0 0 0;
+}
+
+
+
+/* footer top*/
+.FooterTop {
+    display: flex;
+    grid-template-columns: 15% 55%;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+.FooterLogo2{
+    display: none;
+}
+.FooterLinks {
+    margin: auto;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Nav-1 {
+    color: #fff;
+}
+
+.Nav-1 li {
+    padding: 5% 0;
+}
+
+.Nav-1 li a:hover {
+    color: #959595;
+}
+
+.Nav-1 li a {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8vw;
+}
+
+.Nav-1 li:nth-child(1) {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    margin-bottom: 10%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2vw;
+    text-align: center;
+}
+
+
+.FooterContacts {
+    padding: 3%;
+    width: 45%;
+}
+
+.FooterContactsCard {
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+    border-radius: 40px;
+    background-color: #26211E;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.ContactsText{
+    width: 100%;
+    height: 60%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.ContactsText a:nth-child(1) {
+    font-family: 'Jost', sans-serif;
+    font-size: 1.5vw;
+}
+
+.ContactsText a {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8vw;
+    color: #FFFFFF;
+}
+.ContactsText a:hover{
+    color: #aaaaaa;
+}
+
+.InputFooter {
+    padding: 5% 0;
+}
+
+.InputFooter input {
+    padding: 5%;
+    background: rgba(217, 217, 217, 0.1);
+    border-radius: 20px;
+    color: #fff;
+}
+
+.ButtonFooter {
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    padding: 5% 0;
+    border-radius: 4px;
+    background-color: rgb(255, 104, 117);
+}
+.ButtonFooter:hover{
+    cursor: pointer;
+    background-color: rgb(188, 80, 92);
+}
+.IconsFooter {
+    padding-top: 6%;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.IconsFooter a {
+    color: #fff;
+    font-size: 2vw;
+}
+
+.IconsFooter a:hover {
+    color: #a4a4a4;
+}
+
+
+/* footer bottom*/
+.FooterBottom {
+    width: 60%;
+    padding: 1% 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.FooterLogo {
+    text-align: end;
+}
+.FooterBottomContent {
+    text-align: end;
+    align-items: center;
+    color: white;
+}
+
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+    .Nav-1 li a, .ContactsText a{
+        font-size: 1.1vw;
+    }
+    .Nav-1 li h3, .ContactsTet a:nth-child(1) {
+        font-size: 1.4vw;
+    }
+    .FooterLinks {
+        margin: 0;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 990px){
+    .Nav-1 li a, .ContactsText a, .ButtonFooter h3{
+        font-size: 1.2vw;
+    }
+    .ButtonFooter h3{
+        font-size: 1vw;
+    }
+    .Nav-1 li h3, .ContactsTet a:nth-child(1){
+        font-size: 1.5vw;
+    }
+    .FooterLinks{
+        margin: 0;
+    }
+    .IconsFooter a{
+        font-size: 2.5vw;
+    }
+    .FooterLogo a span img{
+        width: 15vw;
+    }
+}
+@media screen and (max-width: 767px){
+    .FooterTop, .FooterLinks{
+        display: block;
+        border-bottom: 0;
+    }
+    .FooterLogo2{
+        display: block;
+        padding: 2% 0;
+    }
+    .FooterLinks ul li:nth-child(1){
+        text-align: left;
+    }
+    .ButtonFooter h3, .FooterLinks,.FooterLinks ul li:nth-child(1){
+        margin: 0;
+    }
+    .FooterContacts, .InputFooter input, .FooterBottom, .FooterBottomContent{
+        width: 100%;
+    }
+    .FooterLogo{
+        display: none;
+    }
+    .FooterBottomContent p{
+        text-align: center;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 767px){
+    .FooterLinks{
+        width: 50%;
+    }
+    .Nav-1{
+        padding-top: 5%;
+    }
+    .Nav-1 li h3, .ContactsText a:nth-child(1){
+        font-size: 2.5vw;
+    }
+    .Nav-1 li a, .ContactsText a{
+        font-size: 2vw;
+    }
+    .Nav-1 li, .ContactsText a {
+        padding: 5% 0;
+    }
+    .ButtonFooter h3{
+        font-size: 2vw;
+    }
+    .IconsFooter a{
+        font-size: 4vw;
+    }
+    .FooterBottomContent p{
+        font-size: 1.5vw;
+    }
+}
+@media screen and (max-width: 479px){
+    .Nav-1{
+        padding-top: 5%;
+    }
+    .Nav-1 li h3, .ContactsText a:nth-child(1){
+        font-size: 3.5vw;
+    }
+    .Nav-1 li a, .ContactsText a{
+        font-size: 3vw;
+    }
+    .Nav-1 li, .ContactsText a {
+        padding: 5% 0;
+    }
+    .ContactsText{
+        line-height: 20px;
+        display: block;
+        height: 75%;
+    }
+    .ButtonFooter h3{
+        font-size: 2.5vw;
+    }
+    .IconsFooter a{
+        font-size: 5vw;
+    }
+    .FooterBottomContent p{
+        font-size: 2vw;
+    }
+    .FooterLinks{
+        width: 60%;
+    }
+    .InputFooter input{
+        font-size: 3vw;
+    }
+}

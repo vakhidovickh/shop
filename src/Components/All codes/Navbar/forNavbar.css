@@ -1,0 +1,330 @@
+/* Исходный код */
+
+.HeaderTop {
+    width: 100%;
+    background-color: #F8F8F8;
+}
+
+
+.HeaderCart a:hover, .HeaderTopButtons a:hover, .HeaderCatalog a:hover, .HeaderSearch button:hover {
+    color: gray;
+}
+
+
+
+.HeaderTopContent {
+    padding: 1%;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    align-items: center;
+}
+
+
+.HeaderTopButtons {
+    display: flex;
+    justify-content: end;
+    align-content: center;
+}
+
+.HeaderTopButtons a {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5vw;
+    line-height: 24px;
+    margin: 0 1%;
+    color: #1D1D1D;
+}
+
+
+.HeaderContacts {
+    display: grid;
+    text-align: end;
+    align-items: center;
+}
+
+.HeaderContacts a:nth-child(1) {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.3vw;
+    line-height: 190%;
+    color: #000000;
+}
+.HeaderContacts a:nth-child(1):hover{
+    color: gray;
+}
+.HeaderContacts a:nth-child(2) {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1vw;
+    line-height: 190%;
+    color: #FF3232;
+    cursor: pointer;
+}
+.HeaderContacts a:hover{
+    color: #cc2b2b;
+}
+
+.HeaderBottom {
+    display: grid;
+    grid-template-columns: 1.2fr 2fr 0.8fr;
+    padding: 2% 0 1% 0;
+    align-items: center;
+}
+
+.HeaderBottomLogo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.HeaderLogo2{
+    display: none;
+}
+
+.HeaderCatalog {
+    width: 100%;
+    text-align: center;
+}
+
+.HeaderCatalog a {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color: #1D1D1D;
+    font-size: 1.2vw;
+}
+
+.HeaderCatalog a span {
+    padding: 3%;
+    font-size: 1.4vw;
+}
+
+.LogoModal a span img{
+    width: 12vw;
+}
+
+.HeaderSearch {
+    width: 80%;
+    margin: auto;
+    background-color: #F8F8F8;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.HeaderSearch input {
+    background-color: transparent;
+    padding: 3%;
+    width: 90%;
+    font-size: 1.2vw;
+}
+
+.HeaderSearch button {
+    background-color: transparent;
+}
+
+.HeaderSearch button:hover {
+    border-radius: 50%;
+    background-color: #cdcdcd;
+}
+
+.HeaderCart {
+
+    text-align: end;
+}
+
+.HeaderCart a {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1vw;
+    align-items: center;
+    color: #1D1D1D;
+}
+
+
+
+.HeaderCart a span {
+    margin-right: 2%;
+}
+
+.Modal {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    left: -100%;
+    top: 0;
+    z-index: 50;
+}
+.ContentModal{
+    background-color: #F8F8F8;
+    width: 70%;
+    margin: auto;
+    height: 75vh;
+    position: fixed;
+    top: 10%;
+    left: -100%;
+    transition: all 0.4s ease-in-out;
+    overflow: scroll;
+    padding: 2% 0.5%;
+    display: grid;
+    grid-template-columns: 0.4fr 0.6fr;
+}
+.ModalHeader{
+    position: relative;
+}
+.CloseModal{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: rotate(45deg);
+    font-size: 4vw;
+    cursor: pointer;
+    color: #000000;
+}
+.CloseModal:hover{
+    color: rgba(0, 0, 0, 0.59);
+}
+
+.ModalBody{
+    height: 80%;
+    padding: 5%;
+    cursor: pointer;
+    display: grid;
+}
+.ModalBody h2{
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 1.5vw;
+}
+.ModalBody h2 span a{
+    color: #000000;
+}
+.ModalBody h2:hover, .ModalBody h2 span a:hover{
+    color: rgba(0, 0, 0, 0.62);
+}
+
+.RightHeroModal ul li h2{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2vw;
+}
+
+.RightHeroModal ul li p{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw;
+    color: #8D909B;
+    cursor: pointer;
+    padding-top: 2%;
+}
+.RightHeroModal ul li p:hover{
+    color: #666973;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .HeaderLogo img{
+        width: 13vw;
+    }
+    .HeaderSearch button span img{
+        width: 1.5vw;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 767px){
+    .HeaderSearch{
+        width: 100%;
+    }
+    .HeaderSearch input{
+        font-size: 1.5vw;
+    }
+    .HeaderCart a{
+        font-size: 2vw;
+    }
+    .HeaderCatalog a, .HeaderCatalog a span{
+        font-size: 2vw;
+    }
+    .HeaderContacts a:nth-child(1){
+        font-size: 1.8vw;
+    }
+    .HeaderContacts a:nth-child(2){
+        font-size: 1.4vw;
+    }
+    .TitleLogo a{
+        font-size: 1.8vw;
+    }
+    .HeaderTopButtons{
+        justify-content: space-between;
+    }
+    .TitleLogo{
+        justify-content: end;
+        display: flex;
+        width: 100%;
+    }
+    .HeaderLogo2 img{
+        width: 13vw;
+    }
+    .HeaderSearch button span img{
+        width: 1.5vw;
+    }
+    .HeaderLogo2{
+        display: flex;
+    }
+    .HeaderLogo{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 479px){
+    .Container{
+        width: 90%;
+    }
+    .HeaderTopButtons{
+        justify-content: space-between;
+    }
+    .TitleLogo{
+        justify-content: end;
+        display: flex;
+        width: 100%;
+    }
+    .HeaderLogo2 img{
+        width: 13vw;
+    }
+    .HeaderSearch button span img{
+        width: 1.5vw;
+    }
+    .HeaderLogo2{
+        display: flex;
+    }
+    .HeaderLogo, .HeaderBottomLogo, .HeaderContacts{
+        display: none;
+    }
+    .HeaderTopContent{
+        grid-template-columns: 1fr;
+    }
+    .HeaderBottom{
+        display: grid;
+        grid-template-columns: 0.7fr 0.3fr;
+    }
+    .HeaderLogo2 a span img{
+        width: 30vw;
+    }
+    .HeaderSearch{
+        width: 100%;
+        padding: 1%;
+    }
+    .HeaderSearch input{
+        font-size: 3vw;
+    }
+    .HeaderSearch button span img{
+        width: 3.5vw;
+    }
+    .TitleLogo a, .HeaderCart a{
+        font-size: 3.5vw;
+    }
+}

@@ -1,0 +1,381 @@
+.Main {
+    padding-top: 3%;
+    background-color: #fafafa;
+}
+
+.Carousel{
+    padding: 1%;
+}
+.item img{
+    width: 100%;
+    border-radius: 30px;
+}
+
+.carousel-indicators{
+    bottom: -10%;
+}
+.TitleLogo{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+.carousel-indicators [data-bs-target]{
+    background-color: rgba(201, 201, 201, 0.9);
+    width: 5%;
+    height: 4px;
+    margin: 0 1%;
+}
+.carousel-indicators .active{
+     background-color: rgba(255, 50, 50, 1);
+}
+.carousel-control-prev{
+    width: 3vw;
+    margin-left: 3%;
+}
+
+.carousel-control-next{
+    width: 3vw;
+    margin-right: 3%;
+}
+
+.CardsSection {
+    padding-top: 5%;
+}
+
+.df{
+    display: flex;
+    justify-content: space-between;
+}
+.df h2 {
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2vw;
+}
+.df h2 span{
+    font-size: 2vw;
+    color: #FF3232;
+}
+.df a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1vw;
+    color: #FF3232;
+}
+.df a:hover{
+    color: #c02929;
+}
+.Cards {
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    justify-content: space-between;
+}
+.Cards .Card:hover{
+    background-color: #efefef;
+}
+
+.Card {
+    text-align: center;
+    background-color: white;
+    -webkit-box-shadow: 0 0 8px 0 rgba(34, 60, 80, 0.2) inset;
+    -moz-box-shadow: 0 0 8px 0 rgba(34, 60, 80, 0.2) inset;
+    box-shadow: 0 0 8px 0 rgba(34, 60, 80, 0.2) inset;
+    padding: 3%;
+    border-radius: 30px;
+    position: relative;
+}
+
+.CardHeader img {
+    width: 15vw;
+}
+
+.CardBody {
+    padding: 8% 0 15% 0;
+    text-align: left;
+    position: relative;
+}
+
+.CardBody h4 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5vw;
+    color: #000;
+}
+.CardBody h6 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw;
+    color: #000;
+}
+
+.CardBody p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3vw;
+    font-weight: 600;
+    color: #000;
+    padding-bottom: 5%;
+}
+
+.Card select {
+    position: absolute;
+    bottom: 3%;
+    left: 3%;
+    background-color: white;
+    box-shadow: 0 0 8px 0 rgba(34, 60, 80, 0.2) inset;
+    border-radius: 30px;
+    padding: 1%;
+    cursor: pointer;
+}
+
+.cart{
+    position: absolute;
+    bottom: 3%;
+    right: 5%;
+    border-radius: 50%;
+}
+
+.cart:hover{
+    box-shadow: 0 0 4px #000;
+    cursor: pointer;
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    .CardBody{
+        padding-bottom: 25%;
+    }
+    .CardBody p{
+        font-size: 1.5vw;
+    }
+    .CardBody h6{
+      font-size: 1.2vw;
+    }
+    .CardBody h4{
+        font-size: 2vw;
+    }
+}
+@media screen and (min-width: 567px) and (max-width: 991px) {
+    .carousel-indicators{
+        bottom: -15%;
+    }
+    .Card select{
+        bottom: 5%;
+    }
+    .CardBody{
+        padding-bottom: 30%;
+    }
+    .CardBody p{
+        font-size: 1.6vw;
+    }
+    .CardBody h6{
+        font-size: 1.2vw;
+    }
+    .CardBody h4{
+        font-size: 2vw;
+    }
+    .cart img{
+        width: 4vw;
+    }
+}
+@media screen and (min-width: 621px) and (max-width: 800px){
+    .df h2{
+        font-size: 3vw;
+    }
+    .df h2 span{
+        font-size: 3vw;
+    }
+    .df a{
+        font-size: 2vw;
+    }
+    .Cards{
+        display: grid;
+        grid-template-columns: 31% 31% 31%;
+    }
+    .CardHeader img{
+        width: 20vw;
+    }
+    .Card select{
+        bottom: 5%;
+    }
+    .cart img{
+        width: 5vw;
+    }
+    .Card select {
+        font-size: 1.5vw;
+        left: 10%;
+    }
+    .CardBody{
+        padding-bottom: 15%;
+    }
+    .CardBody p{
+        font-size: 2vw;
+    }
+    .CardBody h6{
+        font-size: 1.6vw;
+    }
+    .CardBody h4{
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 620px){
+    .Cards{
+        display: grid;
+        grid-template-columns: 200px 200px 200px 200px;
+        justify-content: space-between;
+        width: 850px;
+    }
+    .CardsSection{
+        overflow-x: scroll;
+    }
+    .df h2{
+        font-size: 3vw;
+    }
+    .df h2 span{
+        font-size: 3vw;
+    }
+    .df a{
+        font-size: 2vw;
+    }
+    .CardHeader img{
+        width: 25vw;
+    }
+    .Card select{
+        bottom: 5%;
+    }
+    .cart img{
+        width: 5vw;
+    }
+    .Card select {
+        font-size: 1.5vw;
+        left: 10%;
+    }
+    .CardBody{
+        padding-bottom: 15%;
+    }
+    .CardBody p{
+        font-size: 2vw;
+    }
+    .CardBody h6{
+        font-size: 1.6vw;
+    }
+    .CardBody h4{
+        font-size: 2.5vw;
+    }
+}
+@media screen and (min-width: 421px) and (max-width: 500px) {
+    .Cards{
+        display: grid;
+        grid-template-columns: 200px 200px 200px 200px;
+        justify-content: space-between;
+        width: 850px;
+    }
+    .CardsSection{
+        overflow-x: scroll;
+    }
+    .df h2{
+        font-size: 4vw;
+    }
+    .df h2 span{
+        font-size: 4vw;
+    }
+    .df a{
+        font-size: 2.7vw;
+    }
+    .CardHeader img{
+        width: 33vw;
+    }
+    .Card select{
+        bottom: 5%;
+    }
+    .cart img{
+        width: 7vw;
+    }
+    .Card select {
+        font-size: 2vw;
+        left: 10%;
+    }
+    .CardBody{
+        padding-bottom: 18%;
+    }
+    .CardBody p{
+        font-size: 2.5vw;
+    }
+    .CardBody h6{
+        font-size: 2vw;
+    }
+    .CardBody h4{
+        font-size: 3vw;
+    }
+    .Container3{
+        width: 100%;
+        padding-left: 7%;
+        padding-right: 5%;
+    }
+}
+
+
+@media screen and (max-width: 421px) {
+    .Cards{
+        display: grid;
+        grid-template-columns: 200px 200px 200px 200px;
+        justify-content: space-between;
+        width: 850px;
+    }
+    .CardsSection{
+        overflow-x: scroll;
+    }
+    .df h2{
+        font-size: 4vw;
+    }
+    .df h2 span{
+        font-size: 4vw;
+    }
+    .df a{
+        font-size: 2.7vw;
+    }
+    .CardHeader img{
+        width: 45vw;
+    }
+    .Card select{
+        bottom: 5%;
+    }
+    .cart img{
+        width: 9vw;
+    }
+    .Card select {
+        font-size: 3vw;
+        left: 10%;
+    }
+    .CardBody{
+        padding-bottom: 18%;
+    }
+    .CardBody p{
+        font-size: 3.5vw;
+    }
+    .CardBody h6{
+        font-size: 3vw;
+    }
+    .CardBody h4{
+        font-size: 4vw;
+    }
+    .Container3{
+        width: 100%;
+        padding-left: 7%;
+        padding-right: 5%;
+    }
+}
+
+@media screen and (max-width: 566px) {
+    .carousel-indicators{
+        bottom: -20%;
+    }
+    .carousel-indicators [data-bs-target]{
+        width: 7%;
+        height: 2px;
+    }
+
+}

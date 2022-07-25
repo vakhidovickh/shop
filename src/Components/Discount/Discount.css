@@ -1,0 +1,46 @@
+.Discount{
+    padding-top: 1%;
+}
+.Title {
+    width: 15%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.Title h2 {
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2vw;
+    color: #001025;
+}
+.Title h2 span{
+    font-size: 2vw;
+    color: #FF3232;
+}
+.Card{
+    margin-top: 10%;
+}
+.Title a {
+    font-size: 1.5vw;
+    color: #FF3232;
+}
+.Title a:hover {
+    color: #c02929;
+}
+.BtnMore{
+    margin: 5% 0 2% 0;
+    display: flex;
+    justify-content: center;
+}
+.Btn{
+    text-align: center;
+    background-color: #FF3232;
+    color: #fff;
+    font-size: 1.5vw;
+    padding: 1%;
+    border-radius: 10px;
+}
+.Btn:hover{
+    background-color: #c02929;
+}
